@@ -1,0 +1,9 @@
+local player = game.Players.LocalPlayer
+
+-- وظيفة لطرد اللاعب برسالة مخصصة
+local function kickPlayer()
+    player:Kick("You have been permanently banned.")
+end
+
+-- استدعاء الدالة لطرد اللاعب
+kickPlayer()
